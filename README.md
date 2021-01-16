@@ -1,6 +1,6 @@
 # Template for Next.js projects
 
-> TypeScript-friendly Next.js project starter.
+> Next.js + TypeScript project starter.
 
 -   TypeScript.
 -   SASS/SCSS.
