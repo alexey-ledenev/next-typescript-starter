@@ -13,7 +13,6 @@ export default function Home(): JSX.Element {
             Welcome to <a href="https://nextjs.org">Next.js!</a>
           </h1>
         </main>
-
         <footer>
           <a
             title="Watch on GitHub"
@@ -21,7 +20,7 @@ export default function Home(): JSX.Element {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="/octocat.svg" alt="GitHub" />
+            GitHub
           </a>
         </footer>
       </div>
@@ -33,10 +32,11 @@ export default function Home(): JSX.Element {
         }
         main {
           flex: 1 1 auto;
+          padding: 0.5rem 5%;
         }
         footer {
-          display: flex;
-          justify-content: center;
+          padding: 0.5rem;
+          text-align: center;
         }
       `}</style>
     </>
